@@ -1,0 +1,11 @@
+{
+  "name": "satellite",
+  "version": "1.0.0",
+  "description": "satellite node with mongodb support for runtime application logging/meta-info store and caching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raja Khan",
+  "license": "ISC"
+}

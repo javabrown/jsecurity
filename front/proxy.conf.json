@@ -1,0 +1,14 @@
+{
+  "/api/user": {
+    "target": "http://localhost:7071",
+    "pathRewrite": {"^/api": ""},
+    "secure": false,
+    "logLevel": "silent"
+  },
+  "/api/resource": {
+    "target": "http://localhost:7071",
+    "pathRewrite": {"^/api": ""},
+    "secure": false,
+    "logLevel": "silent"
+  }
+}
