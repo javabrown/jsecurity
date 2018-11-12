@@ -17,26 +17,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @SpringBootApplication
-@RestController
 public class SearchApplication {
-	@RequestMapping("/resource")
-	public Map<String,Object> home() {
-		Map<String,Object> model = new HashMap<>();
-		model.put("id", UUID.randomUUID().toString());
-		model.put("content", "Hello World");
-		return model;
-	}
-
-	@RequestMapping("/greeting")
-	public String greeting() {
-		return "Hello Developer";
-	}
-
-	@RequestMapping("/user")
-	public Principal user(Principal user) {
-		return user;
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(SearchApplication.class, args);
 	}

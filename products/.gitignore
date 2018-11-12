@@ -10,6 +10,10 @@
 ### IntelliJ ###
 **/.idea
 *.iml
+**/.idea/**/*.xml
+
+.DS_Store
+.idea
 
 ### Terraform ###
 **/.terraform
